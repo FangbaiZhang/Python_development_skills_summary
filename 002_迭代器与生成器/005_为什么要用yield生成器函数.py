@@ -56,8 +56,6 @@ for n in foo(0):
 
 
 
-
-
 # 通常的for...in...循环中，in后面是一个数组，这个数组就是一个可迭代对象，
 # 类似的还有链表，字符串，文件。它可以是mylist = [1, 2, 3]，也可以是mylist = [x*x for x in range(3)]。
 
@@ -65,5 +63,5 @@ for n in foo(0):
 # 注意的是python3时已经没有xrange()了，在python3中，
 # range()就是xrange()了，你可以在python3中查看range()的类型，
 # 它已经是个<class 'range'>了，而不是一个list了，毕竟这个是需要优化的
-print("*" * 100)
+print("*" * 50)
 print(type(range(10)))

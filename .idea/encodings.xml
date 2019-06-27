@@ -2,5 +2,6 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/001_数据结构相关/005_英文文档案例.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/002_迭代器与生成器/009_filetest.txt" charset="GBK" />
   </component>
 </project>
