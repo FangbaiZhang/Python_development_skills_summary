@@ -8,7 +8,7 @@ for x in data:
     if x >= 0:
         res.append(x)
 print(res)
-print("*" * 100)
+print("*" * 50)
 
 
 # 高级解决方案：filter函数，列表解析，字典解析，集合解析
