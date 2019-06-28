@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 #文件批处理重命名程序
 
-import os, sys
+import os
 
 def rename():
     # 输入重命名的相关参数
