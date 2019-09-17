@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+
+
 ret1 = ["link1", "link2", "link3"]
 ret2 = ["name1", "name2", "name3"]
 
