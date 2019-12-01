@@ -20,7 +20,9 @@ student_no = 100123456
 print("我的学号是 %d" % student_no)
 
 # 定义小数 price、weight、money，
-# 输出 苹果单价 9.00 元／斤，购买了 5.00 斤，需要支付 45.00 元
+# 输出 苹果单价 9.00 元／斤，购买了 7.500 斤，需要支付 63.7500 元
+# f表示输出结果保留几位小数
+
 price = 8.5
 weight = 7.5
 money = price * weight
