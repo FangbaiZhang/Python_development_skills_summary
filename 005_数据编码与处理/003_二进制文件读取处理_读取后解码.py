@@ -7,8 +7,12 @@ info = f.read()
 print(type(info))
 print(info)
 
-# 字节转换为字符串
+# 上面讀取的字节转换为字符串
 s2 = bytes.decode(info,'utf-8')
 print(type(s2))
 print(s2)
 
+# 字節轉換為字符串
+s3 = bytes(s2, 'utf-8')
+print(type(s3))
+print(s3)

@@ -18,7 +18,7 @@ print("*" * 50)
 # 迭代器切片操作，使用islice
 from itertools import islice
 
-# islice返回一个生成器函数，进行切片操作
+# islice返回一个生成器函数，进行切片操作,取出103到105個數
 with open('009_filetest.txt', 'r') as f:
     for line in islice(f, 103, 105):
         print(line)
