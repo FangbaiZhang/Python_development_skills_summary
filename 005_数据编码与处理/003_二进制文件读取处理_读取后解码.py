@@ -12,7 +12,11 @@ s2 = bytes.decode(info,'utf-8')
 print(type(s2))
 print(s2)
 
-# 字節轉換為字符串
+# 字节编码为字符串
 s3 = bytes(s2, 'utf-8')
-print(type(s3))
 print(s3)
+
+s4= s2.encode('utf-8')
+print(s4)
+
+
